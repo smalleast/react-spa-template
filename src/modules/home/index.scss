@@ -1,0 +1,45 @@
+.home-index {
+  overflow: hidden;
+  .hd {
+    height: 4rem;
+  }
+  .bd {
+    &-one {
+      height: 2rem;
+    }
+    &-two {
+      width: 7.5rem;
+      height: .98rem;
+      > .row {
+        height: .98rem;
+        .left {
+          width: 1.8rem;
+        }
+      }
+    }
+    &-three {
+      .row {
+        &-title {
+          height: .98rem;
+        }
+      }
+      .content {
+        display: inline-block;
+        padding: 0 .16rem .16rem .16rem;
+      }
+    }
+  }
+  .v-item {
+    height: .8rem;
+    padding-top: .12rem;
+  }
+}
+
+.home-banner {
+  img {
+    display: block;
+    font-size: 0;
+    width: 7.5rem;
+    padding: 0;
+  }
+}

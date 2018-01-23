@@ -1,0 +1,25 @@
+.my-brokerage {
+  .hd {
+    height: 2.77rem;
+  }
+  .bd {
+    &-one {
+      height: 1.1rem;
+    }
+    .item-fail {
+      &-text{
+        color: #bfbfbf;
+      }
+    }
+  }
+  &-wait {
+    .hd {
+      height: 2.77rem;
+    }
+  }
+}
+
+.am-modal-button {
+  font-size: .28rem;
+  // color: #da5643 !important;
+}

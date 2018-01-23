@@ -1,0 +1,347 @@
+* {
+  box-sizing: border-box;
+  font-size: .24rem;
+}
+
+#body {
+  background-color: #f5f2f2;
+  font-family: "PingFang SC", STHeiti, Microsoft YaHei, Helvetica, Arial, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+input,
+textarea,
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  &:focus {
+    outline: none;
+  }
+}
+
+button {
+  user-select: none;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  @extend .c-3;
+  &:hover, &:active, &:link {
+    @extend .c-9;
+  }
+}
+
+.iconfont {
+  font-size: .3rem;
+  &.wx-arrow-left {
+    color: #ddd;
+    font-size: .2rem;
+  }
+  &.lg {
+    font-size: .52rem;
+    &-1 {
+      font-size: .56rem;
+    }
+  }
+  &.bar {
+    font-size: .36rem;
+  }
+}
+
+input {
+  &.primary {
+    font-size: .3rem;
+    color: #373737;
+  }
+
+}
+
+.bank {
+  &-icon {
+    &-bg {
+      width: .72rem;
+      height: .72rem;
+      line-height: .72rem;
+      border-radius: 100%;
+      text-align: center;
+    }
+  }
+  &-card {
+    &-num {
+      font-size: .48rem;
+      position: absolute;
+      margin-top: -.3rem;
+      right: 1rem;
+    }
+  }
+  &-text {
+    &-blue {
+      color: #15408d;
+      &-s {
+        color: #004081;
+      }
+    }
+
+    &-red {
+      color: #ca2126;
+    }
+    &-yellow {
+      color: #f5a623;
+    }
+  }
+  &-bg {
+    width: 6.9rem;
+    height: 2.6rem;
+    margin: .3rem;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../../assets/images/wp-bank-gd.jpg");
+    &-row {
+      padding: .3rem;
+    }
+    &[data-code='CCB'] {
+      background-image: url("../../assets/images/wp-bank-js.jpg");
+    }
+    &[data-code='CMB'] {
+      background-image: url("../../assets/images/wp-bank-zs.jpg");
+    }
+    &[data-code='ICBC'] {
+      background-image: url("../../assets/images/wp-bank-gs.jpg");
+    }
+    &[data-code='COMM'] {
+      background-image: url("../../assets/images/wp-bank-jt.jpg");
+    }
+    &[data-code='CIB'] {
+      background-image: url("../../assets/images/wp-bank-xy.jpg");
+    }
+    &[data-code='BOC'] {
+      background-image: url("../../assets/images/wp-bank-zg.jpg");
+    }
+  }
+  color: #f5a623;
+  font-size: .6rem;
+  &-1 {
+    font-size: 1rem;
+  }
+  &[data-text='CCB'] {
+    color: #1b4a9e;
+  }
+  &[data-text='CMB'] {
+    color: #d0152f;
+  }
+  &[data-text='ICBC'] {
+    color: #bd221a;
+  }
+  &[data-text='COMM'] {
+    color: #004081;
+  }
+  &[data-text='CIB'] {
+    color: #1c52b4;
+  }
+  &[data-text='BOC'] {
+    color: #da261d;
+  }
+}
+
+#app {
+  .am-input-item {
+    padding: 0;
+    .am-input-label {
+      width: auto;
+      font-size: .3rem;
+    }
+    .am-input-control {
+      input {
+        font-size: .36rem;
+      }
+    }
+    .am-list-line {
+      &:after {
+        background-color: transparent;
+      }
+      .fake-input-placeholder {
+        font-size: .6rem;
+        font-weight: bold;
+        color: #efefef;
+      }
+      .fake-input.focus {
+        font-size: .6rem;
+        color: #373737;
+        font-weight: bold;
+        &:after {
+          border-right: 1.5px solid #da5643;
+          height: 100%;
+          top: 0;
+        }
+      }
+    }
+  }
+  .am-textarea-item {
+    .am-textarea-label {
+      width: auto;
+      font-size: .3rem;
+    }
+    .am-textarea-control {
+      textarea {
+        font-size: .36rem;
+      }
+    }
+  }
+  .am-carousel {
+    .slider-list {
+      height: 4rem !important;
+    }
+    .slider-decorator-0 {
+      bottom: .2rem !important;
+    }
+  }
+}
+
+.am-action-sheet {
+  .am-action-sheet-button-list-item {
+    font-size: .28rem;
+  }
+}
+
+.am-modal {
+  .am-modal-content {
+    .am-modal-header {
+
+    }
+    .am-modal-body {
+      .am-modal-alert-content {
+        font-size: .3rem;
+        color: #353838;
+        line-height: .4rem;
+      }
+    }
+    .am-modal-footer {
+      .am-modal-button {
+        font-size: .28rem;
+        font-weight: bold;
+        color: #da5643;
+        &:first-child {
+          color: #666;
+        }
+        &:last-child {
+          color: #da5643;
+        }
+      }
+    }
+  }
+
+}
+
+.am-tabs {
+  padding-top: .88rem;
+  .am-tabs-tab-bar-wrap {
+    position: fixed;
+    height: .88rem;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    .am-tabs-default-bar-underline {
+      z-index: 101;
+    }
+  }
+  .am-tabs-default-bar-tab-active {
+    color: #da5643;
+  }
+  .am-tabs-default-bar-underline {
+    border: 1px solid #da5643;
+  }
+}
+
+.am-number-keyboard-wrapper {
+
+  .keyboard-confirm, .am-number-keyboard-item-disabled {
+    background-color: #da5643 !important;
+  }
+}
+
+.am-modal-wrap-popup {
+  .am-modal-content {
+    .am-modal-body {
+      .hd {
+        height: 1.2rem;
+        line-height: 1.2rem;
+        border-bottom: 1px solid #efefef;
+      }
+      .bd {
+        .am-tabs-default-bar-tab-active {
+          color: #da5643;
+        }
+        .am-tabs-default-bar-underline {
+          border: 1px solid #da5643;
+        }
+        &-list {
+          height: 2rem;
+          background: #fff;
+          padding: .18rem 0 0 .16rem;
+          &-item {
+            width: 1.6rem;
+            height: .6rem;
+            line-height: .6rem;
+            float: left;
+            margin: .1rem;
+            border: 1px solid #dfdfdf;
+            border-radius: .05rem;
+            &.active {
+              background: #da5643;
+              color: #fff;
+              border: transparent;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+div.am-picker-popup {
+  &-title {
+    font-size: .28rem;
+  }
+  &-header {
+    &-left {
+      color: #da5643;
+      font-size: .28rem;
+    }
+    &-right {
+      color: #da5643;
+      font-size: .28rem;
+    }
+  }
+}
+
+div.am-picker-col-item {
+  color: #999;
+  &.am-picker-col-item-selected {
+    color: #000;
+  }
+
+}
+
+.pull-fd {
+  height: 4rem;
+}
+
+#loading {
+  path {
+    stroke: #da5643;
+  }
+}
+
+.am-pull-to-refresh-up .am-pull-to-refresh-indicator {
+  margin-top: .2rem;
+}
+
+

@@ -1,0 +1,27 @@
+.my-index {
+  .hd {
+    height: 1.78rem;
+    > .row {
+      height: 1.78rem;
+      .left {
+        width: 1.36rem;
+      }
+      .center {
+
+      }
+      .right {
+
+      }
+    }
+  }
+  .bd {
+    &-one {
+      height: 2rem;
+    }
+    &-two {
+       .row {
+        height: 1.16rem;
+      }
+    }
+  }
+}

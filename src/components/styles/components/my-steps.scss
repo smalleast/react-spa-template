@@ -1,0 +1,58 @@
+.my-steps {
+  &-item {
+    position: relative;
+    padding-left: .66rem;
+    padding-bottom: .4rem;
+    .left {
+      width: .66rem;
+      &-x {
+        position: absolute;
+        width: .06rem;
+        height: 100%;
+        background: #efefef;
+        overflow: hidden;
+        display: inline-block;
+        left: .14rem;
+        top: 0;
+      }
+      &-d {
+        position: absolute;
+        left: .07rem;
+        top: 0;
+        width: .2rem;
+        height: .2rem;
+        background: #efefef;
+        border-radius: 100%;
+
+        display: inline-block;
+        &.active {
+          width: .46rem;
+          height: .46rem;
+          background: #fff;
+          border: .06rem solid #99c72e;
+          border-radius: 100%;
+          display: inline-block;
+          left: -.04rem;
+        }
+        &-price {
+          position: absolute;
+          width: .46rem;
+          height: .46rem;
+          line-height: .46rem;
+          border-radius: 100%;
+          display: inline-block;
+          left: -.04rem;
+          color: #fff;
+        }
+      }
+    }
+    &.active {
+      .step-text {
+        color: #da5643;
+      }
+      .step-remark {
+        color: #373737;
+      }
+    }
+  }
+}

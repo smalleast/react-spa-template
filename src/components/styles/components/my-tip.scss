@@ -1,0 +1,17 @@
+.my-tip {
+  padding: .1rem .16rem;
+  border-top-right-radius: .12rem;
+  border-bottom-left-radius: .12rem;
+  font-size: .22rem;
+  color: #fff;
+  &.abs {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 5;
+  }
+  &.radius {
+    border-radius: .06rem;
+    padding: .06rem .1rem;
+  }
+}

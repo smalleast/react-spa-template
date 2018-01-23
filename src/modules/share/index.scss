@@ -1,0 +1,45 @@
+.share-index {
+
+  .hd {
+
+    &-tip {
+      width: 7.5rem;
+      height: .6rem;
+      line-height: .6rem;
+    }
+  }
+  .bd {
+
+    .wx-select {
+      position: relative;
+      display: inline-block;
+      width: 5.3rem;
+      text-align: right;
+      > .wx-arrow-left {
+        font-size: .2rem;
+        color: #ddd;
+      }
+      &:after {
+        content: '';
+        display: inline-block;
+        position: absolute;
+        top: -.2rem;
+        bottom: -.2rem;
+        left: -.2rem;
+        right: -.2rem;
+      }
+      &.wx-sm {
+        width: 4.08rem;
+      }
+    }
+
+    .am-input-item {
+      height: 1rem;
+    }
+  }
+  .fd {
+    //position: absolute;
+    //bottom: 50px;
+    //height: 1.4rem;
+  }
+}

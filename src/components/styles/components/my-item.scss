@@ -1,0 +1,15 @@
+.my-item {
+  &-bd {
+    height: 2rem;
+    .col {
+      &-icon {
+        width: .86rem;
+        height: .86rem;
+        line-height: .86rem;
+        border: 1px solid #da5643;
+        border-radius: 100%;
+        display: inline-block;
+      }
+    }
+  }
+}

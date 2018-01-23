@@ -1,0 +1,28 @@
+.list-base {
+
+  &.lb-top {
+    padding-top: 1rem;
+  }
+  &.lb-bottom {
+    padding-bottom: 1.38rem;
+
+  }
+  &-hd {
+    position: fixed;
+    width: 7.5rem;
+    top: 0;
+    left: 0;
+    height: .95rem;
+    z-index: 111;
+    .row{
+      height: .95rem;
+    }
+  }
+  &-bd {
+   //min-height: 10.06rem;
+   // overflow: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+}
+

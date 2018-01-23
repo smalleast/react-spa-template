@@ -1,0 +1,28 @@
+.client-list {
+
+  .hd {
+
+    .row {
+      height: .95rem;
+      .left {
+
+      }
+      .right {
+
+      }
+    }
+  }
+  .bd {
+
+    &-item {
+      position: relative;
+      height: 2.13rem;
+      border-radius: .12rem;
+      margin-top: .3rem;
+    }
+  }
+  .list-base-bd {
+    min-height: 10.06rem;
+  }
+}
+

@@ -1,0 +1,49 @@
+
+.list {
+  &-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden;
+    > .react-scroller {
+      z-index: 3;
+    }
+    .loading-view {
+      z-index: 1;
+    }
+
+    .btn-refresh {
+      z-index: 4;
+      position: fixed;
+      right: 10px;
+      bottom: 60px;
+
+      &:active {
+        opacity: 0.8;
+      }
+    }
+  }
+}
+
+.list-scroller {
+
+  .btn-refresh {
+    position: fixed;
+    bottom: 1.1rem;
+    right: .1rem;
+    z-index: 10000;
+    @include enlarge()
+  }
+
+  .loading-text {
+    font-size: 14px;
+    text-align: center;
+    line-height: 1rem;
+  }
+  .nomore-text {
+    font-size: 14px;
+    text-align: center;
+    line-height: 1rem;
+  }
+}

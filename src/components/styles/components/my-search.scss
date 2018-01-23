@@ -1,0 +1,20 @@
+.my-search {
+  width: 5.79rem;
+  height: .65rem;
+  line-height: .65rem;
+  background: #efefef;
+  border: .01rem solid #bfbfbf;
+  border-radius: .08rem;
+   i {
+    margin-left: .2rem;
+    position: relative;
+  }
+   input {
+    width: 4.9rem;
+    height: .65rem;
+     line-height: .65rem;
+     position: relative;
+    top: -.02rem;
+    margin-left: .2rem;
+  }
+}

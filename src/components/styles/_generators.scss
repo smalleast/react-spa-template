@@ -1,0 +1,35 @@
+//generator basic items:
+@import "colors";
+$margin-list:(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,25,30,35,40);
+$padding-list:(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,25,30,35,40,50,100);
+$font-size-list:(10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,30,33);
+$blank-list:(1,2,3,4,5,6,7,8,9,10,15,20,25,30,35,40,45,50,55,60,65,70,75,80,85,90);
+$line-height:(16,18,20,22,24,26,28,30,44,50);
+$border-radius-list:(3,4,5,10);
+$line-clamp-list:(1,2,3);
+$line-list:(1);
+$width-percent-list:(1,2,3,4,5,6,7,8,9,10);
+
+@include generator-background-color($colors);
+@include generator-color($colors);
+@include generator-padding-px($padding-list);
+@include generator-padding-py($padding-list);
+@include generator-padding($padding-list,'p');
+@include generator-padding($padding-list,'pr');
+@include generator-padding($padding-list,'pl');
+@include generator-padding($padding-list,'pt');
+@include generator-padding($padding-list,'pb');
+@include generator-margin($margin-list,'m');
+@include generator-margin($margin-list,'mr');
+@include generator-margin($margin-list,'ml');
+@include generator-margin($margin-list,'mt');
+@include generator-margin($margin-list,'mb');
+@include generator-width-wp($width-percent-list);
+
+@include generator-font-size($font-size-list,'.f');
+@include generator-blank($blank-list);
+@include generator-border-radius($border-radius-list);
+@include generator-line($line-list,#efefef,'.line-d-');
+@include generator-line-clamp($line-clamp-list,'.lc-');
+@include generator-line-height($line-height,'.lh');
+@include generator-hlh($line-height);

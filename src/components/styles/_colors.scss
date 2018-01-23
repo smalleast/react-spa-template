@@ -1,0 +1,39 @@
+$colors: (
+  0:#000,
+  1:#111,
+  3:#333,
+  37:#373737,
+  6:#666,
+  7:#777,
+  8:#888,
+  9:#999,
+  99:#99c72e,
+  c:#ccc,
+  d:#ddd,
+  da:#da5643,
+  df:#dfdfdf,
+  e:#eee,
+  ef:#efefef,
+  f:#fff,
+  f5:#f5f2f2,
+  be:#bebebe,
+  b5:#b5b5b5,
+  bf:#bfbfbf,
+  e9:#e9e9e9,
+  e4:#e4e4e4,
+  f7:#f7f7f7,
+  black:#002600,
+  primary:#da5643,
+  orange:#f5a623,
+  green:#99c72e,
+  blue:#1a50b4
+);
+
+//short for get color:
+@function color($color) {
+  @if map-has-key($colors, $color) {
+    @return map-get($colors, $color);
+  }
+  @debug $colors;
+  @error "Invalid color name: `#{$color}`.";
+}

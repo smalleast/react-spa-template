@@ -1,0 +1,17 @@
+.my-message {
+  .hd {
+    height: 1rem;
+    line-height: 1rem;
+    text-align: center;
+  }
+  .bd {
+    &-item {
+      border-bottom: 1px solid #efefef;
+      padding: .3rem .3rem .3rem .3rem;
+      &-content {
+        line-height: .44rem;
+        margin: 0;
+      }
+    }
+  }
+}

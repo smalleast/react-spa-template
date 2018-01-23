@@ -1,0 +1,38 @@
+.dome-detail {
+  .banner {
+    width: 7.5rem;
+    > img {
+      width: 7.5rem;
+    }
+  }
+  .hd {
+    &-one {
+      > .row {
+        width: 6.9rem;
+      }
+    }
+  }
+  .bd {
+    margin: 1rem auto;
+    &-title {
+      width: 3.8rem;
+      margin: auto;
+      &-name {
+        width: 2.36rem;
+      }
+    }
+    &-content {
+      min-height: 4rem;
+      img {
+        width: 7.5rem;
+        font-size: 0;
+        display: block;
+      }
+      p {
+        margin: 0;
+        line-height: .48rem;
+        white-space: pre-wrap;
+      }
+    }
+  }
+}

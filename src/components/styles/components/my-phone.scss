@@ -1,0 +1,25 @@
+.my-phone {
+  text-align: center;
+  display: inline-block;
+  &.sm {
+    height: .42rem;
+    font-size: .3rem;
+    border: .01rem solid #b5b5b5;
+    color: #373737;
+    padding: 0 .2rem;
+  }
+  &.lg {
+    height: .6rem;
+    font-size: .36rem;
+    border: .01rem solid #b5b5b5;
+    color: #373737;
+    padding: 0 .2rem;
+  }
+  &.time {
+    height: .42rem;
+    font-size: .24rem;
+    font-weight: normal;
+    border: .01rem solid #b5b5b5;
+    padding: 0 .2rem;
+  }
+}

@@ -1,0 +1,10 @@
+@mixin enlarge($inDistance:-10px) {
+  &:after {
+    content:'';
+    position: absolute;
+    left: $inDistance;
+    right: $inDistance;
+    top: $inDistance;
+    bottom: $inDistance;
+  }
+}

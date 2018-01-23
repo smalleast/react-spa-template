@@ -1,0 +1,20 @@
+.my-radio {
+  width: .48rem;
+  height: .48rem;
+  border: 1px solid #ddd;
+  border-radius: 100%;
+  display: inline-block;
+  padding-left: .1rem;
+  padding-top: .1rem;
+  margin-left: .4rem;
+  transition: background .3s ease-in-out;
+  background: #fff;
+  > i.wx-hook {
+    font-size: .2rem;
+    color: #fff;
+  }
+  &.active {
+    background: #da5643;
+    border: 1px solid #fff;
+  }
+}

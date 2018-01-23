@@ -1,0 +1,89 @@
+.db, .db_ > * {
+  display: block;
+}
+
+.dib, .dib_ > * {
+  display: inline-block;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.wp {
+  &-auto {
+    width: 6.9rem;
+    margin-left: auto;
+    margin-right: auto;
+    &-p {
+      width: 7.5rem;
+      padding: .3rem;
+    }
+    &-pd {
+      width: 7.5rem;
+      padding-left: .3rem;
+      padding-right: .3rem;
+    }
+  }
+  &-line {
+    &-x {
+      width: 1.68rem;
+      height: .02rem;
+      background: #da5643;
+      overflow: hidden;
+    }
+  }
+  &-bgf {
+    width: 7.5rem;
+    height: 12.06rem;
+    background: #fff;
+
+  }
+  &-bgef {
+    width: 7.5rem;
+    height: 12.06rem;
+    background: #f5f2f2;
+    &-h {
+      width: 7.5rem;
+      height: 100%;
+      background: #f5f2f2;
+    }
+    &-y {
+      width: 7.5rem;
+      height: 10.7rem;
+      background: #f5f2f2;
+    }
+  }
+  &-item {
+    height: 1.16rem;
+    &.sm {
+      height: .88rem;
+    }
+  }
+  &-left {
+    &-w {
+      width: 1.6rem;
+    }
+  }
+  &-fd {
+    &.bottom {
+      position: absolute;
+      bottom: 0;
+    }
+    &.fixed {
+      position: fixed;
+      bottom: 0;
+    }
+  }
+  &-space {
+    //white-space: nowrap;
+    width: 200px;
+  }
+  &-full {
+    width: 7.5rem;
+    height: 12.06rem;
+  }
+  &-ls {
+    letter-spacing: .02rem;
+  }
+}

@@ -1,0 +1,42 @@
+.account {
+  &-top {
+    height: 2rem;
+    padding-top: .5rem;
+
+  }
+  &-login {
+    .bd {
+
+    }
+    .fd {
+      &-link {
+
+        margin-left: auto;
+        margin-right: auto;
+        .left {
+          letter-spacing: .02rem;
+        }
+        .center {
+          width: .72rem;
+        }
+        .right {
+          letter-spacing: .02rem;
+        }
+      }
+
+    }
+  }
+
+}
+.follow {
+  &-link {
+    text-decoration: underline;
+    letter-spacing: .04rem;
+    &:active{
+      color: #da5643;
+    }
+  }
+  &-bd {
+    margin-top: .4rem;
+  }
+}

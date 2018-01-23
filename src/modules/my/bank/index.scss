@@ -1,0 +1,59 @@
+.my-bank-list {
+  padding-bottom: .4rem;
+  .bank-item {
+    margin-left: auto;
+    margin-right: auto;
+    .row {
+      .left {
+        width: .72rem;
+        height: .72rem;
+        line-height: .72rem;
+        background: #fff;
+        border-radius: 100%;
+        text-align: center;
+      }
+    }
+  }
+}
+
+.my-b-add {
+  .hd {
+    &-tip {
+      width: 7.5rem;
+      height: .6rem;
+      line-height: .6rem;
+    }
+  }
+  .bd {
+
+    .wx-select {
+      position: relative;
+      display: inline-block;
+      width: 5.3rem;
+      text-align: right;
+      > .wx-arrow-left {
+        font-size: .2rem;
+        color: #ddd;
+      }
+      &:after {
+        content: '';
+        display: inline-block;
+        position: absolute;
+        top: -.2rem;
+        bottom: -.2rem;
+        left: -.2rem;
+        right: -.2rem;
+      }
+      &.wx-sm {
+        width: 4.08rem;
+      }
+    }
+
+    .am-input-item {
+      height: 1rem;
+    }
+  }
+  .fd {
+
+  }
+}
