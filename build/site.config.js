@@ -1,6 +1,6 @@
 module.exports = {
   dirs: {
-    server: 'zhulogic-share-home/dist',
+    server: 'dist',
     src: 'src',
     dist: 'dist'
   }
