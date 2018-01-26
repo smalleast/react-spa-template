@@ -14,10 +14,10 @@ react + react-dom + react-router + ES6/ES7 + webpack + sass + nodejs
  5. react-router 3.0.0
 ```
 克隆，或者直接下载
-git clone https://github.com/smalleast/zhulogic-share-home.git
+git clone https://github.com/smalleast/react-spa-template.git
 
 进入文件夹
-cd zhulogic-share-home
+cd react-spa-template
 
 安装依赖
 npm install

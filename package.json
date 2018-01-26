@@ -1,8 +1,8 @@
 {
-  "name": "zhulogic-share-home",
-  "version": "0.0.0",
-  "description": "zhulogic-share-home",
-  "homepage": "git@git.oschina.net:smalleast/zhulogic-share-home.git",
+  "name": "react-spa-template",
+  "version": "1.0.0",
+  "description": "react-spa-template",
+  "homepage": "git@git.oschina.net:smalleast/react-spa-template.git",
   "author": {
     "name": "smalleast",
     "email": "382026180@qq.com"
@@ -52,6 +52,7 @@
     "resolution": "github:smalleast/resolution",
     "sass-generator": "github:smalleast/sass-generator",
     "to-thousands": "github:smalleast/to-thousands",
+    "uglify-js": "^3.3.8",
     "webpack-entries": "github:smalleast/webpack-entries",
     "wechat-jssdk": "github:smalleast/wechat-jssdk"
   },
